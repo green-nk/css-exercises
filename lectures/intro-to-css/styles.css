@@ -1,0 +1,45 @@
+/* styles.css */
+
+* {
+    color: purple;
+}
+
+div {
+    color: white;
+}
+
+.alert-text {
+   color: red; 
+}
+
+#title {
+    background-color: red;
+}
+
+.read, 
+.unread {
+    color: white;
+    background-color: black;
+}
+
+.read {
+    /* several unique declaration */
+    text-align: center;
+}
+
+.unread {
+    /* several unique declaration */
+    text-align: left;
+}
+
+.subsection.header {
+    color: red;
+}
+
+.subsection#preview {
+     color: blue;
+}
+
+.ancestor .contents {
+    color: greenyellow;
+}
