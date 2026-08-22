@@ -37,7 +37,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
-  flex: none;
+  flex: none; /* flex-shrink: 0; */
   padding: 16px;
 }
 
@@ -45,16 +45,15 @@ body {
   padding: 48px;
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 32px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  height: 300px;
   width: 300px;
-  padding: 12px;
+  padding: 16px;
 }
 
 ul {
@@ -64,10 +63,11 @@ ul {
 }
 
 li {
-  padding: 4px;
+  margin-bottom: 16px;
 }
 
 a {
   text-decoration: none;
   color: white;
+  font-size: 20px;
 }
